@@ -1,0 +1,1052 @@
+.ot-unlock {
+  width: min(360px, 100%);
+  margin: 16vh auto;
+  padding: 24px;
+}
+.ot-unlock h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.ot-unlock p {
+  color: var(--pp-muted);
+  margin-bottom: 24px;
+}
+.ot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+.ot-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--pp-secondary);
+}
+.ot-form h4 {
+  font-size: 15px;
+  margin: 8px 0 0;
+  color: var(--pp-text);
+}
+.ot-form input,
+.ot-form select,
+.ot-form textarea,
+.ot-search,
+.ot-chat-form textarea,
+.ot-targets input {
+  font: inherit;
+  font-size: 16px;
+  color: var(--pp-text);
+  background: var(--pp-bg);
+  border: 1px solid var(--pp-stroke);
+  border-radius: 12px;
+  padding: 11px 12px;
+  width: 100%;
+  min-width: 0;
+  outline-offset: 3px;
+}
+.ot-form input:focus,
+.ot-form textarea:focus,
+.ot-form select:focus,
+.ot-chat-form textarea:focus {
+  outline: 2px solid var(--pp-focus);
+  border-color: transparent;
+}
+.ot-form textarea,
+.ot-chat-form textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+.ot-form input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--pp-accent);
+}
+.ot-form .ot-check-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  min-height: 38px;
+  cursor: pointer;
+}
+.ot-primary,
+.ot-secondary,
+.ot-text-button {
+  font: inherit;
+  font-weight: 550;
+  min-height: 44px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.ot-primary {
+  background: var(--pp-accent);
+  color: var(--pp-on-accent);
+}
+.ot-secondary {
+  background: var(--pp-fill);
+  color: var(--pp-text);
+}
+.ot-text-button {
+  background: transparent;
+  color: var(--pp-secondary);
+  font-size: 12px;
+  padding: 8px;
+}
+.pp-root button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.pp-root button:focus-visible {
+  outline: 2px solid var(--pp-focus);
+  outline-offset: 3px;
+}
+.ot-modal {
+  border: 1px solid var(--pp-stroke);
+  border-radius: 26px;
+  padding: 24px;
+  background: var(--pp-bg);
+  color: var(--pp-text);
+  width: min(560px, calc(100vw - 32px));
+  max-height: 88dvh;
+  margin: auto;
+  overflow: auto;
+  box-shadow: 0 25px 100px #0003;
+  overscroll-behavior: contain;
+}
+.ot-modal::backdrop {
+  background: #10141866;
+  backdrop-filter: blur(5px);
+}
+.ot-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.ot-modal-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+}
+.ot-wide {
+  width: min(680px, calc(100vw - 32px));
+}
+.ot-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.ot-fields > label {
+  min-width: 0;
+}
+.ot-xp-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.ot-input-unit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ot-choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+.ot-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 16px 0 0;
+  flex-wrap: wrap;
+}
+.ot-muted {
+  font-size: 13px;
+  color: var(--pp-muted);
+  line-height: 1.65;
+}
+.ot-empty {
+  padding: 20px 0;
+  line-height: 1.75;
+  color: var(--pp-secondary);
+}
+.ot-empty button {
+  margin-top: 16px;
+}
+.ot-pending-banner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  border: 1px solid var(--pp-stroke);
+  padding: 14px 18px;
+  border-radius: 16px;
+  margin-top: 18px;
+  background: var(--pp-bg);
+  color: var(--pp-text);
+  text-align: left;
+}
+.ot-pending-banner span {
+  color: var(--pp-accent);
+}
+.ot-pending-region {
+  grid-column: 1 / -1;
+}
+.ot-pending-region:empty {
+  display: none;
+}
+.ot-pending-sections {
+  display: grid;
+  gap: 24px;
+}
+.ot-pending-section {
+  padding: 20px 20px 8px;
+  border: 1px solid var(--pp-stroke);
+  border-radius: 22px;
+  background: color-mix(in srgb, var(--pp-bg) 85%, transparent);
+  box-shadow: 0 4px 18px color-mix(in srgb, var(--pp-text) 3%, transparent);
+}
+.ot-pending-section h3 {
+  scroll-margin-top: 28px;
+  outline: none;
+}
+.ot-pending-section h3:focus-visible {
+  outline: 2px solid var(--pp-focus);
+  outline-offset: 5px;
+  border-radius: 3px;
+}
+.ot-pending-section .ot-pending-count {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.ot-suggestion-row {
+  border-bottom: 1px solid var(--pp-stroke);
+}
+.ot-all-activities {
+  grid-column: 1 / -1;
+}
+.ot-suggestion-row:last-child,
+.ot-suggestion-row > .pp-task {
+  border-bottom: 0;
+}
+.ot-pending-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--pp-stroke);
+  gap: 2px;
+}
+.ot-pending-row:last-child {
+  border-bottom: 0;
+}
+.ot-pending-row > .pp-task {
+  flex: 1;
+  min-width: 0;
+  min-height: 72px;
+  border-bottom: 0;
+}
+.ot-pending-row .pp-task-title {
+  overflow-wrap: anywhere;
+}
+.ot-pending-dismiss {
+  width: 36px;
+  height: 44px;
+  flex: 0 0 36px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--pp-muted);
+  -webkit-tap-highlight-color: transparent;
+}
+.ot-pending-row.is-arriving {
+  animation: ot-pending-arrive 480ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.ot-completion-row.is-leaving {
+  pointer-events: none;
+  animation: ot-completion-leave 380ms ease-in both;
+}
+@keyframes ot-completion-leave {
+  0%,
+  40% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
+.ot-chat-pending-link {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid var(--pp-stroke);
+  border-radius: 14px;
+  background: var(--pp-fill);
+  color: var(--pp-text);
+  font: inherit;
+  font-size: 12px;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+.ot-chat-pending-link > span {
+  margin-left: auto;
+}
+@keyframes ot-pending-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  .ot-pending-section {
+    padding: 18px 14px 6px;
+  }
+  .ot-pending-dismiss {
+    width: 30px;
+    flex-basis: 30px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ot-pending-row.is-arriving,
+  .ot-completion-row.is-leaving {
+    animation: none;
+  }
+}
+.ot-error {
+  position: fixed;
+  top: max(10px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  background: #763d32;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px #0003;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+.ot-error button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  white-space: nowrap;
+  padding: 6px;
+  font-weight: 600;
+}
+.ot-search {
+  margin: 18px 0 6px;
+}
+.ot-catalogue {
+  margin: 12px 0;
+}
+.ot-catalogue-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--pp-stroke);
+}
+.ot-row-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 7px;
+  min-width: 0;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  font: inherit;
+  padding: 0;
+}
+.ot-row-main strong {
+  font-size: 15px;
+}
+.ot-row-main p {
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+.ot-row-main small {
+  color: var(--pp-muted);
+  font-size: 12px;
+}
+.ot-xp-line {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ot-xp-line > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.ot-goal {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--pp-stroke);
+}
+.ot-targets {
+  display: grid;
+  grid-template-columns: 65px repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 10px;
+}
+.ot-target-row {
+  display: contents;
+}
+.ot-targets input {
+  padding: 9px 6px;
+  font-size: 14px;
+}
+.ot-targets label {
+  font-size: 12px;
+}
+.ot-targets small {
+  font-size: 11px;
+}
+.ot-derived {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid var(--pp-stroke);
+  color: var(--pp-secondary);
+}
+.ot-derived small {
+  font-size: 11px;
+  color: var(--pp-muted);
+}
+.ot-chat-log {
+  max-height: 52dvh;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 0 3px 16px;
+}
+.ot-message {
+  margin-bottom: 20px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: var(--pp-fill);
+  line-height: 1.7;
+}
+.ot-message.user {
+  margin-left: 32px;
+  background: color-mix(in srgb, var(--pp-accent) 7%, var(--pp-bg));
+}
+.ot-message.assistant {
+  margin-right: 12px;
+  background: transparent;
+  border: 1px solid var(--pp-stroke);
+}
+.ot-message small {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 11px;
+  color: var(--pp-muted);
+  font-weight: 600;
+}
+.ot-message p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+.ot-chat-form {
+  padding-top: 12px;
+  border-top: 1px solid var(--pp-stroke);
+}
+.ot-chat-form .ot-actions {
+  justify-content: space-between;
+  margin-top: 8px;
+  flex-wrap: nowrap;
+}
+.ot-chat-form small {
+  font-size: 11px;
+  color: var(--pp-muted);
+}
+.ot-proposal {
+  margin: 16px 0;
+  padding: 18px;
+  border: 1px solid color-mix(in srgb, var(--pp-accent) 30%, var(--pp-stroke));
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--pp-accent) 3%, var(--pp-bg));
+}
+.ot-proposal-change {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--pp-stroke);
+  line-height: 1.65;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.ot-proposal-change b {
+  font-size: 14px;
+}
+.ot-proposal-change p {
+  white-space: pre-wrap;
+  margin-top: 5px;
+}
+.ot-proposal-change small {
+  display: block;
+  color: var(--pp-muted);
+  margin-top: 6px;
+}
+.ot-proposal .ot-actions > * {
+  flex: 1;
+}
+.ot-journal-entry {
+  border-top: 1px solid var(--pp-stroke);
+  padding: 20px 0;
+  line-height: 1.75;
+}
+.ot-journal-entry p {
+  white-space: pre-wrap;
+  margin: 10px 0;
+}
+.ot-journal-entry small,
+.ot-journal-entry b {
+  font-size: 12px;
+  color: var(--pp-secondary);
+}
+@media (min-width: 900px) {
+  .pp-root .pp-dashboard-body {
+    padding: 36px 48px;
+  }
+  .pp-root .pp-pillars {
+    max-width: 780px;
+    margin: auto;
+  }
+  .pp-root .pp-greeting {
+    margin-bottom: 38px;
+  }
+  .pp-root .pp-main-content {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .ot-modal {
+    width: 100%;
+    max-width: 100%;
+    max-height: 92dvh;
+    border-radius: 26px 26px 0 0;
+    margin: auto 0 0;
+    padding: 22px 20px calc(24px + env(safe-area-inset-bottom));
+  }
+  .ot-chat-log {
+    max-height: 50dvh;
+  }
+  .ot-catalogue-row {
+    flex-wrap: wrap;
+  }
+  .ot-catalogue-row .ot-row-main {
+    min-width: 50%;
+  }
+  .ot-unlock {
+    padding: 24px;
+  }
+  .ot-fields input[type="date"] {
+    max-width: 100%;
+    min-height: 44px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+.ot-form-error {
+  padding: 12px 14px;
+  border-radius: 12px;
+  color: #874535;
+  background: color-mix(in srgb, #c46d50 10%, var(--pp-bg));
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+.ot-form-error .ot-actions {
+  margin-top: 4px;
+}
+.ot-modal .pp-floating-xp {
+  z-index: 40;
+}
+.ot-modal .pp-reward-tray {
+  z-index: 42;
+}
+.ot-proposal-total {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0 0;
+  font-size: 13px;
+}
+.ot-note-suggestion {
+  border-top: 1px solid var(--pp-stroke);
+  margin-top: 16px;
+  padding-top: 14px;
+}
+.ot-note-suggestion button {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* One quiet entry point; the dashboard remains visible behind a half-height chat. */
+.ot-chat-fab {
+  position: fixed;
+  right: max(20px, calc((100vw - 1200px) / 2 + 24px));
+  bottom: calc(20px + env(safe-area-inset-bottom));
+  z-index: 35;
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border-radius: 50%;
+  color: var(--pp-bg);
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--pp-text) 86%, var(--pp-bg)),
+    var(--pp-text)
+  );
+  border: 1px solid color-mix(in srgb, var(--pp-text) 75%, var(--pp-bg));
+  box-shadow:
+    0 8px 26px color-mix(in srgb, var(--pp-text) 20%, transparent),
+    inset 0 1px 0 #ffffff30;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition:
+    transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 160ms;
+}
+.ot-chat-fab[hidden] {
+  display: none;
+}
+.ot-chat-fab:active {
+  transform: scale(0.9);
+  box-shadow: 0 3px 12px #0002;
+}
+.ot-chat-panel {
+  --ot-chat-gutter: max(20px, calc((100% - 760px) / 2));
+  position: fixed;
+  z-index: 40;
+  inset: var(--ot-chat-top, 0px) auto auto 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+  height: var(--ot-chat-visible-height, 100dvh);
+  max-height: none;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  color: var(--pp-text);
+  background: linear-gradient(155deg, var(--pp-bg), var(--pp-chrome));
+  outline: none;
+  animation: ot-chat-arrive 260ms cubic-bezier(0.2, 0.85, 0.2, 1) both;
+  overscroll-behavior: contain;
+}
+.ot-chat-panel[open] {
+  display: flex;
+}
+.ot-chat-panel::backdrop {
+  background: transparent;
+}
+.ot-chat-panel-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  padding: calc(12px + env(safe-area-inset-top)) var(--ot-chat-gutter) 12px;
+  border-bottom: 1px solid var(--pp-stroke);
+}
+.ot-chat-panel.is-handing-off {
+  animation: ot-chat-depart 320ms 140ms cubic-bezier(0.4, 0, 0.2, 1) both;
+  pointer-events: none;
+}
+@keyframes ot-chat-depart {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+.ot-chat-heading {
+  display: flex;
+  flex-shrink: 0;
+  gap: 9px;
+  align-items: center;
+}
+.ot-chat-heading h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.ot-chat-mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--pp-fill);
+  color: var(--pp-secondary);
+}
+.ot-chat-back {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 0 8px 12px;
+  margin-left: 8px;
+  border: 0;
+  background: transparent;
+  color: var(--pp-secondary);
+  font-size: 13px;
+  font-weight: 550;
+  -webkit-tap-highlight-color: transparent;
+}
+.ot-chat-back > svg {
+  transform: rotate(90deg);
+}
+.ot-chat-back:active {
+  opacity: 0.6;
+}
+.ot-chat-saved {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 24px;
+  font-size: 12px;
+  color: var(--pp-secondary);
+}
+@media (max-width: 600px) {
+  .ot-chat-back {
+    width: 44px;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: -10px;
+  }
+  .ot-chat-back > span {
+    display: none;
+  }
+  .ot-chat-saved {
+    min-width: 0;
+    text-align: right;
+  }
+}
+.ot-chat-saved.is-visible {
+  animation: ot-chat-saved 240ms ease-out both;
+}
+.ot-chat-panel .ot-chat-log {
+  flex: 1;
+  min-height: 0;
+  max-height: none;
+  overflow: auto;
+  padding: 24px var(--ot-chat-gutter) 16px;
+  scroll-padding-block: 16px;
+  scrollbar-width: thin;
+}
+.ot-chat-panel .ot-message {
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  line-height: 1.6;
+}
+.ot-chat-panel .ot-message.user {
+  margin-left: 28px;
+}
+.ot-chat-panel .ot-message.assistant {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 10px;
+}
+.ot-chat-panel .ot-message p {
+  font-size: 15px;
+}
+.ot-chat-panel .ot-message small {
+  margin-bottom: 4px;
+  font-size: 10px;
+}
+.ot-chat-empty {
+  display: grid;
+  place-content: center;
+  min-height: 100%;
+  padding: 12px 24px;
+  text-align: center;
+  color: var(--pp-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.ot-chat-thinking {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0 12px;
+  font-size: 12px;
+  color: var(--pp-muted);
+}
+.ot-thinking-dots {
+  display: flex;
+  gap: 4px;
+}
+.ot-thinking-dots i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: ot-thinking-pulse 1.2s ease-in-out infinite;
+}
+.ot-thinking-dots i:nth-child(2) {
+  animation-delay: 150ms;
+}
+.ot-thinking-dots i:nth-child(3) {
+  animation-delay: 300ms;
+}
+@keyframes ot-thinking-pulse {
+  0%,
+  80%,
+  100% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ot-thinking-dots i {
+    animation: none;
+  }
+}
+.ot-message-failed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--pp-secondary);
+}
+.ot-chat-panel .ot-chat-form {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 14px var(--ot-chat-gutter) calc(14px + env(safe-area-inset-bottom));
+  border-color: color-mix(in srgb, var(--pp-stroke) 65%, transparent);
+}
+.ot-chat-panel .ot-chat-form textarea {
+  display: block;
+  min-height: 44px;
+  max-height: 96px;
+  padding: 10px 12px;
+  resize: none;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.ot-chat-panel .ot-chat-form .ot-actions {
+  margin-top: 6px;
+  gap: 8px;
+}
+.ot-chat-panel .ot-chat-form small {
+  font-size: 10px;
+}
+.ot-chat-panel .ot-chat-form .ot-primary {
+  min-height: 34px;
+  width: 36px;
+  padding: 7px;
+  border-radius: 50%;
+  background: var(--pp-text);
+  color: var(--pp-bg);
+}
+.ot-chat-panel .ot-proposal {
+  padding: 12px;
+  margin: 8px 0 12px;
+  border-radius: 16px;
+}
+.ot-chat-panel .ot-proposal-change {
+  padding: 10px 0;
+}
+.ot-chat-panel .ot-proposal-total {
+  padding-top: 12px;
+}
+.ot-chat-error {
+  max-height: 110px;
+  overflow: auto;
+  flex-shrink: 0;
+  margin: 12px var(--ot-chat-gutter) 0;
+  padding: 9px 12px;
+  background: color-mix(in srgb, #c46d50 10%, var(--pp-bg));
+  color: #a6533d;
+  font-size: 12px;
+  border-radius: 12px;
+}
+.ot-chat-error .ot-actions {
+  margin-top: 0;
+}
+@keyframes ot-chat-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes ot-chat-saved {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ot-chat-panel,
+  .ot-chat-panel.is-handing-off,
+  .ot-chat-saved.is-visible {
+    animation: none;
+  }
+  .ot-chat-fab {
+    transition: none;
+  }
+}
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  .ot-chat-panel {
+    background: var(--pp-bg);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .ot-chat-panel {
+    background: var(--pp-bg);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+.ot-appearance {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 28px 20px 0;
+}
+.ot-appearance-toggle {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--pp-stroke);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--pp-chrome) 85%, transparent);
+}
+.ot-appearance-toggle button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  min-width: 98px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--pp-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.ot-appearance-toggle button[aria-pressed="true"] {
+  border-color: var(--pp-stroke);
+  background: var(--pp-bg);
+  color: var(--pp-text);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 5%);
+}
+
+.ot-sop-text {
+  white-space: pre-wrap;
+  line-height: 1.65;
+}
+.ot-sop-reminder {
+  position: fixed;
+  z-index: 35;
+  left: 50%;
+  bottom: calc(110px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  width: min(440px, calc(100% - 32px));
+  padding: 16px 20px;
+  border: 1px solid var(--pp-stroke);
+  border-radius: 22px;
+  background: var(--pp-bg);
+  color: var(--pp-text);
+  box-shadow: 0 12px 40px #0002;
+}
+.ot-sop-reminder p {
+  margin: 0;
+  line-height: 1.5;
+}
+.ot-sop-reminder .ot-actions {
+  margin-top: 8px;
+}
+
+:root {
+  --ot-negative: #c53939;
+}
+.ot-negative {
+  color: var(--ot-negative) !important;
+}
+.ot-xp-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 14px;
+  margin: 12px 0;
+}
+.ot-cost-bar {
+  display: flex;
+}
+.ot-cost-bar .pp-bar-fill {
+  border-radius: 0;
+  flex-shrink: 0;
+}

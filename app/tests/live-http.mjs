@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+const origin=process.argv[2];if(!origin?.startsWith('https://'))throw Error('Provide the deployment URL.');
+const password=readFileSync(0,'utf8').trim();
+const page=await fetch(origin);assert.equal(page.status,200,`Page status ${page.status}`);assert.ok((await page.text()).includes('OutThink'), `Did not reach OutThink at ${page.url}`);
+const before=await fetch(`${origin}/api/outthink`);assert.equal(before.status,401);assert.equal((await before.json()).locked,true);
+const signed=await fetch(`${origin}/api/outthink`,{method:'POST',headers:{origin,'Content-Type':'application/json'},body:JSON.stringify({type:'login',password})});
+assert.equal(signed.status,200,`Login failed (${signed.status})`);
+const cookie=signed.headers.get('set-cookie');assert.ok(cookie.includes('HttpOnly')&&cookie.includes('Secure')&&cookie.includes('SameSite=Strict'));
+const headers={origin,'Content-Type':'application/json',cookie:cookie.split(';')[0]};
+const state=await fetch(`${origin}/api/outthink`,{headers});assert.equal(state.status,200);const s=await state.json();
+assert.ok(s.settings&&s.totals&&Array.isArray(s.activities));assert.equal('journal' in s,false);
+assert.equal((await fetch(`${origin}/api/outthink`,{method:'POST',headers:{...headers,origin:'https://elsewhere.example'},body:JSON.stringify({type:'logout'})})).status,403);
+const out=await fetch(`${origin}/api/outthink`,{method:'POST',headers,body:JSON.stringify({type:'logout'})});assert.equal(out.status,200);
+assert.equal((await fetch(`${origin}/api/outthink`,{headers})).status,401);
+console.log(JSON.stringify({live:true,page:200,passwordGate:401,signIn:200,secureSession:true,csrf:403,logoutRevokes:true,activities:s.activities.length,logs:s.logs.length,messages:s.messages.length,aiConfigured:s.aiConfigured}));

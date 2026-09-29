@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+#root > .pp-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  padding: 24px 24px calc(100px + env(safe-area-inset-bottom));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#root > .pp-root > .pp-comparison {
+  width: 100%;
+  order: 0;
+}
+#root > .pp-root > .pp-toolbar {
+  order: 1;
+  margin: 0;
+  padding: 16px 0 0;
+  justify-content: center;
+}
+#root > .pp-root .pp-toolbar-right {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+#root > .pp-root .pp-toggle:first-child {
+  display: none;
+}
+#root > .pp-root .pp-preview-top {
+  display: none;
+}
+#root > .pp-root .pp-progress-title,
+#root > .pp-root .pp-daily-value {
+  display: none;
+}
+#root > .pp-root .pp-legend {
+  display: none;
+}
+#root > .pp-root .pp-main-content {
+  margin-top: 28px;
+}
+#root > .pp-root .pp-floating-xp {
+  left: 50% !important;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  align-items: center;
+}
+#root > .pp-root .pp-floating-xp > span {
+  justify-content: center;
+}
+#root > .pp-root .pp-pillar {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
+@media (hover: none), (pointer: coarse) {
+  #root > .pp-root .pp-pillar:hover {
+    background: transparent;
+  }
+}
+#root > .pp-root .pp-composer-area {
+  bottom: max(12px, env(safe-area-inset-bottom));
+}
+#root > .pp-root .pp-data-note {
+  font-size: 11px;
+}
+
+/* Quiet, stationary color behind the content; blur only the small floating surfaces. */
+#root > .pp-root {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+}
+#root > .pp-root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      ellipse at 100% 0%,
+      rgba(235, 182, 156, 0.25),
+      transparent 52%
+    ),
+    radial-gradient(
+      ellipse at 0% 32%,
+      rgba(160, 206, 193, 0.19),
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 100% 65%,
+      rgba(190, 177, 218, 0.17),
+      transparent 50%
+    ),
+    var(--pp-bg);
+}
+#root > .pp-root .pp-preview {
+  background: transparent;
+  border-color: color-mix(in srgb, var(--pp-stroke) 55%, transparent);
+}
+#root > .pp-root .pp-main-content > section {
+  padding: 18px;
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--pp-bg) 82%, transparent);
+  border: 1px solid color-mix(in srgb, var(--pp-bg) 90%, var(--pp-stroke));
+  box-shadow:
+    0 5px 22px color-mix(in srgb, var(--pp-text) 4%, transparent),
+    inset 0 1px 0 color-mix(in srgb, var(--pp-bg) 90%, transparent);
+}
+#root > .pp-root .pp-why {
+  background: color-mix(in srgb, var(--pp-fill) 65%, transparent);
+  border-radius: 14px;
+}
+#root > .pp-root .pp-composer,
+#root > .pp-root .pp-composer-open,
+#root > .pp-root .pp-streak-badge,
+#root > .pp-root .pp-reward-tray {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--pp-bg) 90%, transparent),
+    color-mix(in srgb, var(--pp-chrome) 75%, transparent)
+  );
+  border: 1px solid color-mix(in srgb, var(--pp-bg) 85%, var(--pp-stroke));
+  box-shadow:
+    0 6px 24px color-mix(in srgb, var(--pp-text) 7%, transparent),
+    inset 0 1px 0 color-mix(in srgb, var(--pp-bg) 95%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  backdrop-filter: blur(18px) saturate(1.15);
+}
+#root > .pp-root .pp-composer {
+  border-radius: 22px;
+}
+#root > .pp-root .pp-streak-badge {
+  box-shadow: 0 3px 14px color-mix(in srgb, var(--pp-text) 4%, transparent);
+}
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  #root > .pp-root .pp-composer,
+  #root > .pp-root .pp-composer-open,
+  #root > .pp-root .pp-streak-badge,
+  #root > .pp-root .pp-reward-tray {
+    background: var(--pp-chrome);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  #root > .pp-root .pp-main-content > section,
+  #root > .pp-root .pp-composer,
+  #root > .pp-root .pp-composer-open,
+  #root > .pp-root .pp-streak-badge,
+  #root > .pp-root .pp-reward-tray {
+    background: var(--pp-bg);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+@media (max-width: 600px) {
+  #root > .pp-root {
+    padding: 0 0 calc(100px + env(safe-area-inset-bottom));
+  }
+  #root > .pp-root .pp-preview {
+    border: 0;
+    border-radius: 0;
+  }
+  #root > .pp-root .pp-dashboard-body {
+    padding: calc(20px + env(safe-area-inset-top)) 20px 20px;
+  }
+  #root > .pp-root .pp-task-title {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+  #root > .pp-root .pp-task-text small {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  #root > .pp-root .pp-why p {
+    font-size: 13px;
+    line-height: 1.65;
+  }
+  #root > .pp-root .pp-composer > span:first-of-type {
+    font-size: 14px;
+  }
+  #root > .pp-root .pp-toolbar {
+    padding: 0 16px;
+  }
+  #root > .pp-root .pp-toolbar-right {
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+}

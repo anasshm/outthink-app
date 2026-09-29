@@ -1,0 +1,4807 @@
+{
+  "about": "Fictional demo data: Wren, a ranger-for-hire in the town of Ashvale. Dates are shifted by scripts/seed-demo.mjs so the last day lands on today.",
+  "settings": {
+    "cutoff": 6,
+    "targets": {
+      "work": {
+        "seven": 700,
+        "today": 100,
+        "thirty": 3000
+      },
+      "mental": {
+        "seven": 700,
+        "today": 100,
+        "thirty": 3000
+      },
+      "social": {
+        "seven": 700,
+        "today": 100,
+        "thirty": 3000
+      },
+      "physical": {
+        "seven": 700,
+        "today": 100,
+        "thirty": 3000
+      }
+    },
+    "timezone": "UTC",
+    "workPenalty": {
+      "enabled": true,
+      "perHour": {
+        "work": 0,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "afterMinutes": 240
+    }
+  },
+  "activities": [
+    {
+      "id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "name": "Patrol Run",
+      "description": "A run along the town wall or the forest trail on patrol duty.",
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: finish the Wall Warden patrol badge.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "048923e5-2b11-43c6-b968-47fb215054c1",
+      "name": "Barracks Sparring",
+      "description": "Weapon drills or sparring at the barracks yard. Not the same as Stretching Kata.",
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 50,
+        "physical": 100
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: pass the Blade Trial at the end of the season.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "dbb85b3e-33fd-47c5-a1ab-70074633234f",
+      "name": "Rune Meditation",
+      "description": "Channeling power into the ward rune stones, measured in minutes.",
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "minute",
+      "default_quantity": 10,
+      "preferred_frequency": null,
+      "note": "Goal: charge the ward runes before the full moon.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 10,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "ee0a376b-46b8-4d1a-b64c-913afb361062",
+      "name": "Feast at the Tavern",
+      "description": "A sit-down feast at the Gilded Boar with the ranger band.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "5814fd43-6b04-4061-a62e-f6dd1d9e3241",
+      "name": "Consult the Oracle",
+      "description": "Asking the Oracle of the Hollow Peak to read the omens for an upcoming quest.",
+      "xp": {
+        "work": 0,
+        "mental": 200,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: learn where the Ember Stone is hidden.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "abc84203-907a-4e2d-a5e3-128738c479e3",
+      "name": "Visit the Village Sage",
+      "description": "A visit to Old Maren, the Ashvale sage, to decode old runes.",
+      "xp": {
+        "work": 0,
+        "mental": 200,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-12T11:39:22.309+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "1366c15b-a264-4d03-8f0e-771112fabb17",
+      "name": "Browse the Bazaar",
+      "description": "Buying gear, arrows and trinkets at the Ashvale bazaar.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-14T11:00:13.776+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "501f12e6-d090-4e23-8495-62122a5ed76c",
+      "name": "Long Tavern Stay (2h+)",
+      "description": "Two hours or more at the tavern gathering quest rumours. Shorter visits are Tavern Visit.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 100,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: find a lead for the next bounty.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:40:28.371+00:00",
+      "updated_at": "2026-09-12T11:40:28.371+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "cc8e2e9f-16e6-4193-ac95-d04e98e69cea",
+      "name": "Repair the Hideout",
+      "description": "The big upkeep: patch the roof, restock the larder, sort the armoury.",
+      "xp": {
+        "work": 0,
+        "mental": 100,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": {
+        "days": 15,
+        "kind": "interval"
+      },
+      "note": "Goal: keep the hideout ready before the winter storms.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:46:21.988+00:00",
+      "updated_at": "2026-09-12T11:55:50.952+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "9cad80aa-7149-492b-8d24-7f8f6478bb2c",
+      "name": "Crystal Ball Doomscroll",
+      "description": "Time lost staring into the crystal ball at gossip and false omens. One completion = one session.",
+      "xp": {
+        "work": -10,
+        "mental": -10,
+        "social": -10,
+        "physical": -10
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Each session drains 10 XP from every pillar.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-20T17:57:12.995+00:00",
+      "updated_at": "2026-09-20T17:57:12.995+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "42bae109-968e-4a09-b8d6-aa74fce3e13d",
+      "name": "Send a Raven to the Lodge",
+      "description": "A raven report to the Rangers' lodge in Dunmere.",
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 25,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": {
+        "days": 5,
+        "kind": "interval"
+      },
+      "note": "Goal: keep the lodge informed so the next contract gets approved.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-13T11:44:02.356+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "name": "Tavern Visit",
+      "description": "A shorter visit to the tavern or inn to hear the latest news.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:40:28.371+00:00",
+      "updated_at": "2026-09-14T07:05:41.204+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "917d467a-a09e-4f42-9d0b-a0240681181c",
+      "name": "Ridge Hunt",
+      "description": "A full-day hunt on the north ridge with the ranger band.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 200
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: track down the ridge wolf pack.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-15T15:10:44.699+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "8129ac90-170e-4c4a-8199-c91f15ad537e",
+      "name": "Forest Walk",
+      "description": "Scouting the Ashvale woods on foot with a fellow ranger, measured in minutes.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "unit": "minute",
+      "default_quantity": 10,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-17T21:47:30.844+00:00",
+      "updated_at": "2026-09-17T21:47:30.844+00:00",
+      "unit_size": 10,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "name": "Market Run",
+      "description": "A supply run to the big market square for rations and rope.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-14T11:01:15.58+00:00",
+      "updated_at": "2026-09-14T11:04:20.267+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "name": "Corner Stall",
+      "description": "A quick stop at the corner stall for arrows and small supplies.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-15T08:39:47.175+00:00",
+      "updated_at": "2026-09-15T08:39:47.175+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "name": "Guild Contracts",
+      "description": "Paid contract work from the Rangers' Guild board: tracking, escort jobs, bounty paperwork. Measured in hours.",
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "hour",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: reach Silver rank in the Rangers' Guild. The first hour each day earns bonus XP.",
+      "must_do": false,
+      "tracks_work": true,
+      "archived": false,
+      "created_at": "2026-09-11T05:59:43.533+00:00",
+      "updated_at": "2026-09-15T08:42:28.672+00:00",
+      "unit_size": 1,
+      "daily_bonus": {
+        "minutes": 60,
+        "perHour": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        }
+      },
+      "sop": "1. Check the guild board for new postings.\n2. Pick the contract that fits today's route.\n3. Hand in bounty paperwork the same day."
+    },
+    {
+      "id": "7bc9bcbb-ff95-4176-ada7-e458840d8d98",
+      "name": "Quick Stop at the Inn",
+      "description": "A brief stop at the inn by the gate to swap news.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-23T15:18:39.846+00:00",
+      "updated_at": "2026-09-23T15:18:39.846+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "ae19cfe2-d834-48c6-bc87-b33c95adf3be",
+      "name": "Armour Tune-up",
+      "description": "Taking armour to Brann's forge for new rivets, straps and dent repairs.",
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: be battle-ready for the Blade Trial.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-19T09:25:15.324+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": "1. Scrub the mud and rust spots off the chest plate and bracers.\n2. Drop them at Brann's forge for new rivets and straps.\n3. Record any dents Brann finds in the gear ledger."
+    },
+    {
+      "id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "name": "Train the Familiar",
+      "description": "Scouting and message-carrying drills with Pip, the owl familiar, measured in minutes.",
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "minute",
+      "default_quantity": 10,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-19T09:46:38.551+00:00",
+      "unit_size": 10,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "name": "Enchanting Workshop",
+      "description": "Hours at the workshop enchanting gear such as the compass. Separate from Guild Contracts.",
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "hour",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "Goal: finish the enchanted compass.",
+      "must_do": false,
+      "tracks_work": true,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-20T17:09:12.942+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "7bd8e4f0-9f52-4fb1-aa9e-51f3ac2cd0e1",
+      "name": "Stretching Kata",
+      "description": "A full ranger stretching kata to stay nimble on the trail.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 0,
+        "physical": 50
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-20T17:09:12.942+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "name": "Sweep the Hideout",
+      "description": "Everyday tidying and sweeping of the hideout, measured in minutes. Bigger repairs are Repair the Hideout.",
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "unit": "minute",
+      "default_quantity": 10,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-20T17:09:12.942+00:00",
+      "unit_size": 10,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "name": "Study Spellbooks",
+      "description": "Studying spellbooks and lore scrolls, measured in minutes.",
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 0
+      },
+      "unit": "minute",
+      "default_quantity": 10,
+      "preferred_frequency": null,
+      "note": "Goal: learn the Warding spell before the Blade Trial.",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-20T17:09:12.942+00:00",
+      "unit_size": 10,
+      "daily_bonus": null,
+      "sop": "1. Open the current spellbook at the marked chapter.\n2. Work through the chapter and copy one new rune into the rune ledger.\n3. Cast the rune once at the practice target."
+    },
+    {
+      "id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "name": "Raven to a Friend",
+      "description": "A raven exchange with a friend from the old ranger band.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-12T11:39:22.309+00:00",
+      "updated_at": "2026-09-20T17:09:12.942+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    },
+    {
+      "id": "431381b1-8440-48c1-936e-6360b3c2cc12",
+      "name": "Visit a Party Member",
+      "description": "Visiting an old party member in person to plan a future quest.",
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "unit": "completion",
+      "default_quantity": 1,
+      "preferred_frequency": null,
+      "note": "",
+      "must_do": false,
+      "tracks_work": false,
+      "archived": false,
+      "created_at": "2026-09-24T19:42:09.051+00:00",
+      "updated_at": "2026-09-24T19:42:09.051+00:00",
+      "unit_size": 1,
+      "daily_bonus": null,
+      "sop": ""
+    }
+  ],
+  "logs": [
+    {
+      "id": "6cb25558-473f-47c3-bf3e-630791f0ce2a",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-10",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 50,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-11T06:00:29.579+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "96c2aa3d-e609-4cd7-9acb-09fd4bbf0b26",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-12",
+      "label": "Enchanting Workshop · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 30,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-12T12:34:22.309+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "6ab7f1b9-d9ad-440b-8a47-a816b878ad47",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-12",
+      "label": "Study Spellbooks · 30 minutes",
+      "quantity": 30,
+      "xp": {
+        "work": 0,
+        "mental": 30,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T06:27:39.122+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "5d701db8-7e64-4b41-b927-d8fc61518993",
+      "activity_id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "day": "2026-09-13",
+      "label": "Patrol Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T08:46:17.29+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "455873c2-d408-471c-ab3d-2e8543293883",
+      "activity_id": "dbb85b3e-33fd-47c5-a1ab-70074633234f",
+      "day": "2026-09-13",
+      "label": "Rune Meditation · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T08:46:24.118+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "d865f1c3-8f52-4c38-9e29-be79c5ab74e4",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-13",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T08:59:19.145+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "4b15080f-6ada-4ad9-ba68-9effdf5d7306",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-13",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T10:50:27.298+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "ae3cd7f9-5d22-4116-b2f8-838466675fb6",
+      "activity_id": "42bae109-968e-4a09-b8d6-aa74fce3e13d",
+      "day": "2026-09-13",
+      "label": "Send a Raven to the Lodge",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T11:44:17.278+00:00",
+      "reward_rule": null,
+      "sop_reminded_at": null
+    },
+    {
+      "id": "6900be26-85bb-4514-bf6d-82872652ab49",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-14",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T07:04:15.25+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "f8cdc6ce-2d87-4a50-855a-b683babefee9",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-14",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 60,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T09:23:05.808+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": "2026-09-14T09:23:05.808+00:00"
+    },
+    {
+      "id": "addd8ad9-fa43-4aad-9629-1425fa098eb3",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-13",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T13:38:01.354+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "8cf519f7-be6a-4bd5-acf2-c99439b2f56f",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-13",
+      "label": "Enchanting Workshop · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T14:44:48.213+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "8a3e89ce-97d3-4194-8ec1-8c1ca9aadf54",
+      "activity_id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "day": "2026-09-13",
+      "label": "Raven to a Friend",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-13T15:22:21.225+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c410c4cd-2d15-4184-b00b-3be9bc01a8f9",
+      "activity_id": "048923e5-2b11-43c6-b968-47fb215054c1",
+      "day": "2026-09-14",
+      "label": "Barracks Sparring",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 50,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T10:53:13.95+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 50,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "7f9c7273-0d43-4011-9224-4598f3b22c4b",
+      "activity_id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "day": "2026-09-14",
+      "label": "Market Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T11:04:34.64+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "ec6bca73-3344-40b7-b2f6-2d181747906a",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-14",
+      "label": "Study Spellbooks · 20 minutes",
+      "quantity": 20,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T13:10:18.583+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "31281659-ca5d-4370-8a83-e90f32f24434",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-14",
+      "label": "Train the Familiar",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T13:10:19.252+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "535ac6f5-1106-4cda-92bd-00e677c7ce6c",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-14",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T15:34:17.502+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "18cb1cd2-4490-44dd-bb79-6d503b73302d",
+      "activity_id": "5814fd43-6b04-4061-a62e-f6dd1d9e3241",
+      "day": "2026-09-14",
+      "label": "Consult the Oracle",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 200,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-14T18:00:37.537+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 200,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "fbbc9b6c-e2cc-4dcb-850d-369ba5f01e42",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-15",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T18:47:28.872+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "bf5aba1a-4e0e-4109-991e-4ea74209515c",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-15",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T21:46:10.385+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 20
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "564797ce-c7e9-4cb3-93d9-48511b47b0ac",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-15",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T08:40:02.588+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "eaaf2097-4419-4c95-b118-fa5e0c08f255",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-15",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 60,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T09:43:07.522+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "5acad7ff-de3c-4f33-a471-d614c11a939c",
+      "activity_id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "day": "2026-09-15",
+      "label": "Patrol Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T10:51:01.628+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 25,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c05c00dd-acc7-4b77-91cd-723e25532356",
+      "activity_id": "917d467a-a09e-4f42-9d0b-a0240681181c",
+      "day": "2026-09-15",
+      "label": "Ridge Hunt",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 200
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T15:11:07.193+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 200
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "eb2d44f9-1ea3-4c03-b9ca-3570e4a0e3d3",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-15",
+      "label": "Study Spellbooks · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-15T22:04:45.741+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "71e8963d-53f7-42da-b3c4-a8723ca4a4a1",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-16",
+      "label": "Guild Contracts · 1.5 hours",
+      "quantity": 1.5,
+      "xp": {
+        "work": 50,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 90,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-16T09:47:20.2+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "a2e3292c-5175-4d8b-9da8-e7070aa7a4c6",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-16",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-16T12:16:13.631+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3a3b4a0b-35f5-4b7c-9fa7-a26521cf799e",
+      "activity_id": "1366c15b-a264-4d03-8f0e-771112fabb17",
+      "day": "2026-09-16",
+      "label": "Browse the Bazaar · 0.5 times",
+      "quantity": 0.5,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-16T12:16:43.232+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "66070a22-28bc-486c-81d3-46fbe7c65e2b",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-17",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T10:03:19.124+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "8c710b10-6f15-4239-9458-ef72b4d2dba0",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-17",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T10:03:19.736+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "8e89ba24-8c9c-486c-b099-2a140f6232ec",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-17",
+      "label": "Enchanting Workshop · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T13:08:02.796+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "1dac7baa-adb7-4bea-924a-ed0f635279be",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-17",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T13:08:18.281+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "f9e724a1-be28-4dce-8dd1-167c825f4057",
+      "activity_id": "cc8e2e9f-16e6-4193-ac95-d04e98e69cea",
+      "day": "2026-09-16",
+      "label": "Repair the Hideout",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 100,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T13:38:32.688+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 100,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "f71c2ec9-50db-440f-afaf-c05d1e7dc455",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-17",
+      "label": "Train the Familiar",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T15:07:00.895+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "fc963ad9-8581-4c70-b94d-a7e644441a2c",
+      "activity_id": "8129ac90-170e-4c4a-8199-c91f15ad537e",
+      "day": "2026-09-17",
+      "label": "Forest Walk · 15 minutes",
+      "quantity": 15,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 15,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T21:47:51.437+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "1b274bec-366a-444a-b2bf-7a85594a5ffd",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-17",
+      "label": "Study Spellbooks · 15 minutes",
+      "quantity": 15,
+      "xp": {
+        "work": 0,
+        "mental": 15,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-17T22:26:02.482+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "43039fe9-ba21-4db1-9d8b-bbaba2bb9520",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-18",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T10:22:18.401+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e9978ac5-ff17-4cb0-92fc-6bc60a63b6e2",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-18",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T11:48:16.928+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3d487e0d-f58d-4187-841e-c18bc72a911a",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-18",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T13:01:37.336+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "82b798ff-6543-4007-9679-52004c8bd620",
+      "activity_id": "1366c15b-a264-4d03-8f0e-771112fabb17",
+      "day": "2026-09-18",
+      "label": "Browse the Bazaar",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T15:24:51.65+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "845dbc81-a1b7-4834-afd1-a3e6dddb98ce",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-18",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T15:24:52.228+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e88cb06d-91de-4be6-8b2b-f9ddb54fdcc3",
+      "activity_id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "day": "2026-09-18",
+      "label": "Patrol Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T15:24:52.854+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 25,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3f8b7090-d488-4abe-a8e9-c7c72156b7bf",
+      "activity_id": "42bae109-968e-4a09-b8d6-aa74fce3e13d",
+      "day": "2026-09-18",
+      "label": "Send a Raven to the Lodge",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T15:56:42.362+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "0a93217f-9583-48d3-99a7-97dd575c6549",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-18",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T17:35:38.304+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e31941d5-df21-40a1-b263-caa83d6b0996",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-18",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T19:58:58.615+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "b738317c-e868-4995-9d67-2f8f0d44d545",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-18",
+      "label": "Study Spellbooks · 30 minutes",
+      "quantity": 30,
+      "xp": {
+        "work": 0,
+        "mental": 30,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-18T22:22:59.27+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": "2026-09-18T22:22:59.27+00:00"
+    },
+    {
+      "id": "fe9e0c96-846e-47c1-8c24-161f085bb43a",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-19",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T09:11:27.243+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "f5bee57e-707f-48e7-ac48-87b73e75a36d",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-19",
+      "label": "Train the Familiar · 15 minutes",
+      "quantity": 15,
+      "xp": {
+        "work": 0,
+        "mental": 15,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T09:46:52.622+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "95f632b1-92bd-47f9-9f01-b50211e39c3a",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-19",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T10:52:33.826+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "7fae65b1-f258-4a5c-8dd4-6bfba17ceaa8",
+      "activity_id": "048923e5-2b11-43c6-b968-47fb215054c1",
+      "day": "2026-09-19",
+      "label": "Barracks Sparring",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 50,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T13:19:11.31+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 50,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "54e86df8-869f-4ae7-97bc-7f3cfcc0b3e3",
+      "activity_id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "day": "2026-09-19",
+      "label": "Market Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T13:19:11.95+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "98e80dd7-c07a-4a2b-b1a8-7993b02d7022",
+      "activity_id": "ae19cfe2-d834-48c6-bc87-b33c95adf3be",
+      "day": "2026-09-19",
+      "label": "Armour Tune-up",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T17:30:48.837+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": "2026-09-19T17:30:48.837+00:00"
+    },
+    {
+      "id": "17f890d5-1662-44bd-ac62-d49cca1ccafc",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-19",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T21:01:22.011+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c1355514-260b-4c59-9a21-3f2ee167fc06",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-19",
+      "label": "Enchanting Workshop · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-19T21:46:54.047+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "b19f53b7-7e08-45ec-a942-3150588087ca",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-20",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T15:52:05.785+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "a4d47f33-3f02-41f5-9d2a-b7bd60a1f70b",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-20",
+      "label": "Enchanting Workshop · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T17:08:53.106+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "028e5474-ff16-4bea-9957-43482cba7b1d",
+      "activity_id": "9cad80aa-7149-492b-8d24-7f8f6478bb2c",
+      "day": "2026-09-19",
+      "label": "Crystal Ball Doomscroll · 6 times",
+      "quantity": 6,
+      "xp": {
+        "work": -60,
+        "mental": -60,
+        "social": -60,
+        "physical": -60
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T17:58:50.321+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": -10,
+          "mental": -10,
+          "social": -10,
+          "physical": -10
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "087276c9-e5dc-4e22-bcc5-83c6898e8516",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-20",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T18:17:45.351+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "006cbabf-9eed-4ff8-9ed8-45d9f3eab4e4",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-20",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T18:34:32.419+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e8ff8cff-e5f1-4a53-a5bb-f29e908c6efc",
+      "activity_id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "day": "2026-09-20",
+      "label": "Raven to a Friend",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T20:54:42.611+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "66600bac-3d2f-401a-b14b-07a654a8a7be",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-20",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-20T23:52:49.481+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 20
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3dc6d682-13dd-4802-86b0-7c984b25f9eb",
+      "activity_id": "dbb85b3e-33fd-47c5-a1ab-70074633234f",
+      "day": "2026-09-20",
+      "label": "Rune Meditation · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-21T00:24:28.046+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 20,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "b3991e62-9be8-4ea2-bdee-ae9c5f2daa32",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-21",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-21T11:46:08.394+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "1eae8d58-ea7d-4149-bd60-aa0bc0046f30",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-21",
+      "label": "Train the Familiar · 40 minutes",
+      "quantity": 40,
+      "xp": {
+        "work": 0,
+        "mental": 40,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-21T11:46:35.532+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "6217d071-3d02-441a-8bc6-ec51e7b53329",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-21",
+      "label": "Train the Familiar · 20 minutes",
+      "quantity": 20,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-21T12:36:01.504+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c45e5a1d-f793-4fcc-a692-7e6498b0ca1e",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-21",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-21T13:17:11.564+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": "2026-09-21T13:17:11.564+00:00"
+    },
+    {
+      "id": "f599fa04-57f5-49b8-bbf4-8283ce98cb51",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-22",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T00:27:31.66+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "47072ad3-3d5c-4f8d-993f-0d4e191bc961",
+      "activity_id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "day": "2026-09-22",
+      "label": "Raven to a Friend",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T00:27:32.29+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e40c9a6a-c0db-4488-bcb9-190e9f065c07",
+      "activity_id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "day": "2026-09-23",
+      "label": "Patrol Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T12:33:52.911+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 25,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c76214a4-f97c-41b5-8d33-b18eec8ed701",
+      "activity_id": "dbb85b3e-33fd-47c5-a1ab-70074633234f",
+      "day": "2026-09-22",
+      "label": "Rune Meditation · 15 minutes",
+      "quantity": 15,
+      "xp": {
+        "work": 0,
+        "mental": 30,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T12:34:30.649+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 20,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "209f0127-51fc-4657-8ce8-c866d54b1bd0",
+      "activity_id": "5814fd43-6b04-4061-a62e-f6dd1d9e3241",
+      "day": "2026-09-23",
+      "label": "Consult the Oracle",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 200,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T14:44:15.203+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 200,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e35cb48f-65d7-4d10-8592-0d2ee56ec930",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-23",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T14:44:36.867+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e60ed2b1-0bfe-43b5-a326-e1c0a93cd70b",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-23",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T15:18:59.697+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "5a2cf65e-c85a-47e1-8e0e-f75fd1036b4a",
+      "activity_id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "day": "2026-09-23",
+      "label": "Raven to a Friend",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T17:56:40.877+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "2e05d36f-54b6-4a64-b49c-51ab95710698",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-23",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T20:13:18.706+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "87ccfdf8-c40b-42ae-a86d-854998fe9379",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-23",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-23T22:24:14.823+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "68fc801e-bc5b-4d59-be04-7ea392212921",
+      "activity_id": "dbb85b3e-33fd-47c5-a1ab-70074633234f",
+      "day": "2026-09-23",
+      "label": "Rune Meditation · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T01:41:26.057+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 20,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "2d071758-55a2-4980-abf6-6c4e74c9bb21",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-24",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T11:50:30.13+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "9160ca3b-e681-44f0-a42e-3448761171e4",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-24",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 60,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T13:36:46.693+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "40223b3f-732e-4a0d-acd9-964a2c82efc8",
+      "activity_id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "day": "2026-09-24",
+      "label": "Market Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T17:28:04.709+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "041ea419-3641-4e41-a2cf-fe6728a507f4",
+      "activity_id": "048923e5-2b11-43c6-b968-47fb215054c1",
+      "day": "2026-09-24",
+      "label": "Barracks Sparring",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 50,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T17:28:05.384+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 50,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "5350fa5d-9ff6-409d-9dff-674f9d024d82",
+      "activity_id": "431381b1-8440-48c1-936e-6360b3c2cc12",
+      "day": "2026-09-24",
+      "label": "Visit a Party Member",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-24T19:42:48.845+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "322dc4a6-810a-410a-a323-73fb65f5738a",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-25",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T12:02:44.316+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 20
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "548a5f9f-8160-4657-addd-90a4e21ee4b9",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-25",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 40,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T13:29:18.153+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3993c650-9e90-4344-b47a-6900eec3fe27",
+      "activity_id": "cd177d03-857a-4e01-b261-3d8d3c42b348",
+      "day": "2026-09-25",
+      "label": "Patrol Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 50,
+        "social": 25,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T16:03:14.493+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 50,
+          "social": 25,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "7fbb677d-bf16-4b00-9780-5f138d10fa60",
+      "activity_id": "42bae109-968e-4a09-b8d6-aa74fce3e13d",
+      "day": "2026-09-25",
+      "label": "Send a Raven to the Lodge",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T16:03:15.222+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "09220fbe-960b-4e23-9de5-5b7101a44bd7",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-25",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T17:41:05.745+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "02906b13-492c-468e-87be-b10628f21240",
+      "activity_id": "dbe41f59-f1bd-46b7-9d18-22edffbd18df",
+      "day": "2026-09-25",
+      "label": "Raven to a Friend",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-25T19:46:10.825+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e38c01eb-4379-4c57-870e-ee03d6c03971",
+      "activity_id": "d451ed05-3fd2-450f-a057-b7529ea17dc9",
+      "day": "2026-09-25",
+      "label": "Train the Familiar · 60 minutes",
+      "quantity": 60,
+      "xp": {
+        "work": 0,
+        "mental": 60,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T02:33:17.111+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e020d98e-3109-4bfa-9955-d81998fecb82",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-26",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T11:20:21.466+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "db94ccfa-87d1-4f1f-a09e-779178c8f50a",
+      "activity_id": "048923e5-2b11-43c6-b968-47fb215054c1",
+      "day": "2026-09-26",
+      "label": "Barracks Sparring",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 25,
+        "social": 50,
+        "physical": 100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T16:31:21.289+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 25,
+          "social": 50,
+          "physical": 100
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "3e7574ff-0e2d-4d66-b3ba-8f9d5ffd1d94",
+      "activity_id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "day": "2026-09-26",
+      "label": "Market Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T16:31:23.774+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "cb5aba20-2e6f-4084-a92a-0df9a65383e7",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-26",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 60,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T16:32:03.057+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "30b7c47f-4faf-4665-93fb-4e927780d39b",
+      "activity_id": "bd459cdf-c784-44fe-96f5-982de461ffca",
+      "day": "2026-09-26",
+      "label": "Market Run",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 25,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T16:31:45.469+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 25,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "fabe16e0-5544-4ed5-a707-68cb44f97ffb",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-26",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T18:52:37.048+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 20
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c656dfdd-d55f-4d43-bf1e-6ad0c1541562",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-26",
+      "label": "Enchanting Workshop · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 15,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T20:29:14.743+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "2bdfd20b-77e5-47bf-81bd-4aad4dabd487",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-26",
+      "label": "Guild Contracts · 1 hour",
+      "quantity": 1,
+      "xp": {
+        "work": 20,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 60,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T21:41:34.607+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "fc47c0fd-f75a-43e3-a4a1-a68fbbc507fe",
+      "activity_id": "01d198a7-ce00-47af-b603-cfb332f52acd",
+      "day": "2026-09-26",
+      "label": "Enchanting Workshop · 0.5 hours",
+      "quantity": 0.5,
+      "xp": {
+        "work": 7.5,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 30,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-26T22:07:56.856+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 15,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "8dadb03d-7161-4b35-94fe-c181df5c715e",
+      "activity_id": "0b0cd15e-6ebf-4a80-b8e9-442620742837",
+      "day": "2026-09-26",
+      "label": "Study Spellbooks · 20 minutes",
+      "quantity": 20,
+      "xp": {
+        "work": 0,
+        "mental": 20,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-27T00:07:09.325+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": "2026-09-27T00:07:09.325+00:00"
+    },
+    {
+      "id": "bca0c063-672a-419f-9536-90065b2c2f89",
+      "activity_id": "7f579865-4445-4d3e-ba9d-765ebeb418a2",
+      "day": "2026-09-27",
+      "label": "Corner Stall",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 10,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-27T11:54:06.838+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 10,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "c09e7052-1599-406f-ad15-d105051dd719",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-27",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-27T11:54:08.004+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "7f4b448a-1128-4442-9dc3-d8a7313ae101",
+      "activity_id": "119b4c6b-910a-4c87-9316-fe8f2e33b4c8",
+      "day": "2026-09-27",
+      "label": "Guild Contracts · 2 hours",
+      "quantity": 2,
+      "xp": {
+        "work": 60,
+        "mental": 0,
+        "social": 0,
+        "physical": 0
+      },
+      "work_minutes": 120,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-27T15:55:55.599+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 20,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "unit": "hour",
+        "unit_size": 1,
+        "daily_bonus": {
+          "minutes": 60,
+          "perHour": {
+            "work": 20,
+            "mental": 0,
+            "social": 0,
+            "physical": 0
+          }
+        }
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e0ca5008-dc3e-4e79-b9c3-ddf093f0fb79",
+      "activity_id": "9cad80aa-7149-492b-8d24-7f8f6478bb2c",
+      "day": "2026-09-27",
+      "label": "Crystal Ball Doomscroll · 10 times",
+      "quantity": 10,
+      "xp": {
+        "work": -100,
+        "mental": -100,
+        "social": -100,
+        "physical": -100
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-28T13:47:55.704+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": -10,
+          "mental": -10,
+          "social": -10,
+          "physical": -10
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "0cd66ec8-59ea-4794-af8f-36073f63a86a",
+      "activity_id": "96ef2eb6-fdcd-4b19-a538-7d9ead5ad135",
+      "day": "2026-09-28",
+      "label": "Sweep the Hideout · 10 minutes",
+      "quantity": 10,
+      "xp": {
+        "work": 0,
+        "mental": 10,
+        "social": 0,
+        "physical": 20
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-28T16:10:47.067+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 10,
+          "social": 0,
+          "physical": 20
+        },
+        "unit": "minute",
+        "unit_size": 10,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    },
+    {
+      "id": "e78c292b-8d47-48fd-892c-3e1792d2e930",
+      "activity_id": "4897f3e6-499e-492b-89f8-acd601275b0e",
+      "day": "2026-09-28",
+      "label": "Tavern Visit",
+      "quantity": 1,
+      "xp": {
+        "work": 0,
+        "mental": 0,
+        "social": 50,
+        "physical": 0
+      },
+      "work_minutes": 0,
+      "penalty_rule": {
+        "enabled": true,
+        "perHour": {
+          "work": 0,
+          "mental": 0,
+          "social": 0,
+          "physical": 0
+        },
+        "afterMinutes": 240
+      },
+      "done": true,
+      "created_at": "2026-09-28T16:10:47.786+00:00",
+      "reward_rule": {
+        "xp": {
+          "work": 0,
+          "mental": 0,
+          "social": 50,
+          "physical": 0
+        },
+        "unit": "completion",
+        "unit_size": 1,
+        "daily_bonus": null
+      },
+      "sop_reminded_at": null
+    }
+  ],
+  "journal": [
+    {
+      "id": "b1688696-d6d1-4c68-9ce9-af39081c7b9f",
+      "day": "2026-09-12",
+      "period": "day",
+      "scores": {},
+      "text": "Long patrol day. The east road bridge is still out, so the escort job took twice as long. Pip spotted wolf tracks near the ridge; reporting them to the guild tomorrow.",
+      "created_at": "2026-09-12T21:10:00.000+00:00"
+    },
+    {
+      "id": "2a10fa41-366b-4a29-8266-94a929c2ea2e",
+      "day": "2026-09-13",
+      "period": "morning",
+      "scores": {
+        "mood": 8
+      },
+      "text": "Mill escort posted on the guild board. Taking it first, then drilling the Warding rune for the Blade Trial.",
+      "created_at": "2026-09-13T07:40:00.000+00:00"
+    }
+  ]
+}
